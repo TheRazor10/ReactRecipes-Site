@@ -44,7 +44,7 @@ function NavScrollExample() {
               aria-label="Search"
               onChange={(e) => setSearch(e.currentTarget.value)}
             />
-            <Button type='submit' variant="outline-success" onClick={searchHandler}>Search</Button>
+            <Button variant="outline-success" onClick={searchHandler}>Search</Button>
           </Form>
         </Navbar.Collapse>
       </Container>
